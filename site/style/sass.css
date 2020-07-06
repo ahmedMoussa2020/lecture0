@@ -1,0 +1,20 @@
+p, .list p {
+  font-size: 15px;
+  color: black; }
+
+nav {
+  background-color: lightgrey; }
+
+[class|="image"] {
+  background-color: white; }
+
+.list ul {
+  list-style: none; }
+.list li {
+  display: inline-block; }
+.list p {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none; }
+
+/*# sourceMappingURL=sass.css.map */

@@ -1,0 +1,35 @@
+$backgroundColor: lightgrey;
+
+
+p {
+  font-size: 15px;
+  color: black;
+
+}
+
+nav {
+  background-color: $backgroundColor;
+}
+
+[class|="image"] {
+  background-color: white;
+}
+
+
+.list {
+  ul {
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  p {
+    @extend p;
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+
+}
